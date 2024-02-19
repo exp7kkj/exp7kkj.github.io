@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNGOAT</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Adicione seu CSS personalizado aqui, se necessário */
+    </style>
+</head>
+<body>
+    <!-- Overlay com botão para ativar áudio de fundo -->
+    <input type="checkbox" autocomplete="off" id="overlay-toggle">
+    <div class="overlay fullscreen">
+        <label for="overlay-toggle" onclick="toggleAudio();">
+            <span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;"></span>
+            <span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">mantenho a mente possuída, deixo meu espírito falar livremente.</span>
+        </label>
+    </div>
+
+    <!-- Script para controlar o áudio de fundo -->
+    <script>
+        var audio = new Audio();
+        audio.src = "https://cdn.discordapp.com/attachments/1208999663752192071/1209000580341571654/BROCASITO_-_TUDO_OQUE_QUERO_Feat._Vulgo_FK_Official_Visualizer_S02BcNqeonM.mp3?ex=65e55488&is=65d2df88&hm=19423d78ceb52975b16a043b013162745b5d3d5cf4de9fdf2652dbf32f773fc2&"; // Substitua pelo link do seu áudio
+        audio.loop = true;
+
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/emojis/1193024331836563561.webp?size=96&quality=lossless">
+
+    <!-- Seção de perfis Discord -->
+        <!-- Outro perfil Discord (se necessário) -->
+        <div class="discord-profile">
+            <div class="profile animate__animated animate__fadeInUp animate__fast">
+                <div class="pfp">
+                    <img class="profile-img" data-user-id="1129255872967741440" src="https://cdn.discordapp.com/attachments/1206393453504761908/1209016124201504838/2fd85f610a9f018bb438c5704fb53ad1.png?ex=65e56302&is=65d2ee02&hm=dbc3c26fdd670cd43aba31be40c9fe3e3a17adf2e08c68084c13662c4a6a7434&"> <!-- Substitua pela URL da sua imagem -->
+                    <div class="nickr">KinG</div>
+                    <div class="nick subnick"> expkkj </div>
+                    <div class="badges">
+                        <!-- Badge Nitro -->
+                        <div class="badge" style="background-image: url('images/1895-subscriber-nitro-animated.gif');"></div>
+                        <!-- Badge Boost -->
+                        <div class="badge" style="background-image: url('https://raw.githubusercontent.com/kauexz/badges/main/svg/boosts/discordboost6.svg');"></div>
+                    </div>
+                    <div class="social-buttons">
+                        <a href="https://www.instagram.com/knggoatkkj/" target="_blank" class="social-button">
+                            <i class="fab fa-instagram social-icon"></i>
+                        </a>
+                        <a href="https://discord.com/users/1129255872967741440" target="_blank" class="social-button">
+                            <i class="fab fa-discord social-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Outro perfil Discord (se necessário) -->
+    <script>
+        particlesJS("particles-js", {
+          "particles": {
+            "number": {
+              "value": 30,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#ffffff"
+            },
+            "shape": {
+              "type": "image",
+              "image": {
+                "src": "https://cdn.discordapp.com/emojis/1150225630517002380.webp?size=96&quality=lossless",
+                "width": 100,
+                "height": 100
+              }
+            },
+            "opacity": {
+              "value": 0.5,
+              "random": false,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 12,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 3,
+                "size_min": 0.1,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": false,
+            },
+            "move": {
+              "enable": true,
+              "speed": 2,
+              "direction": "bottom",
+              "random": true,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+              }
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "push"
+              },
+              "resize": true
+            },
+            "modes": {
+              "grab": {
+                "distance": 400,
+                "line_linked": {
+                  "opacity": 1
+                }
+              },
+              "bubble": {
+                "distance": 400,
+                "size": 40,
+                "duration": 2,
+                "opacity": 8,
+                "speed": 3
+              },
+              "repulse": {
+                "distance": 200,
+                "duration": 0.4
+              },
+              "push": {
+                "particles_nb": 4
+              },
+              "remove": {
+                "particles_nb": 2
+              }
+            }
+          },
+          "retina_detect": true
+        });
+      </script>
+        <script>
+          const palavras = ['KinG', 'KinG', 'KinG', 'KinG'];
+      
+          function digitar_palavra(palavra_a, letra_a) {
+              if (palavra_a < palavras.length) {
+                  const palavra_att = palavras[palavra_a];
+      
+                  if (letra_a <= palavra_att.length) {
+                      document.title = palavra_att.substring(0, letra_a);
+      
+                      setTimeout(() => {
+                          digitar_palavra(palavra_a, letra_a + 1);
+                      }, 200);
+                  } else {
+                      setTimeout(() => {
+                          document.title = ''; 
+                          digitar_palavra(palavra_a + 1, 0);
+                      }, 500);
+                  }
+              } else {
+                  setTimeout(() => {
+                      digitar_palavra(0, 0);
+                  }, 500);
+              }
+          }
+      
+          digitar_palavra(0, 0);
+      </script>
+      
+      
+      
+    
+    </body>
+    
+    </html>
+    
+    
